@@ -16,7 +16,7 @@ small{color:#9aa4b2}
 <body>
 
 <h1>ULG Bots - Privacy Policy</h1>
-<p><small>Last updated: November 13, 2026</small></p>
+<p><small>Last updated: November 19, 2026</small></p>
 
 <section>
 <h2>1. Who We Are</h2>
@@ -46,6 +46,7 @@ why, and how users can request its deletion.
 <ul>
 <li>Passwords, account credentials, tokens or payment information.</li>
 <li>Email addresses, phone numbers or physical addresses.</li>
+<li>Message content outside of support ticket threads.</li>
 <li>Direct messages that are not related to a support ticket.</li>
 <li>Browsing activity, advertising identifiers or data from other applications.</li>
 </ul>
@@ -64,18 +65,28 @@ or share data with third parties, and we never use it for advertising.
 <section>
 <h2>5. Message Content</h2>
 <p>
-Message content is processed only to generate in-Discord moderation logs and ticket
-transcripts, and to run prefix commands typed by users. Ticket transcripts are
-generated in memory and uploaded to Discord only (the ticket owner's direct messages
-and our logs channel). Message content is <strong>not stored on any external
-server</strong>, is never sold or shared, and is <strong>never used to train machine
-learning or AI models</strong>.
+<strong>"إدارة الوظائف" (ULG Management Bot)</strong> does not read or process the
+content of user messages. All of its features are driven by slash commands, buttons
+and select menus. Its moderation logs record metadata only: who performed an action,
+in which channel, and when. The text of edited or deleted messages is not recorded.
 </p>
 <p>
-Because reading messages is required for these features to work, users cannot opt
-out of message processing while using them. Server administrators can disable
-logging features at any time, and any user may contact us to request deletion of the
-records generated from their messages.
+<strong>"ULG System" (ULG Tickets)</strong> reads the text of messages posted inside a
+ticket thread for one purpose only: to build an HTML transcript of that ticket when it
+is closed, or when it is transferred to another department. The transcript is
+generated in memory, uploaded to Discord only (the ticket owner's direct messages and
+our private logs channel), and is not written to our database or to any external
+storage.
+</p>
+<p>
+Message content is <strong>not stored on any external server</strong>, is never sold
+or shared, and is <strong>never used to train machine learning or AI models</strong>.
+</p>
+<p>
+Because a transcript cannot be produced without reading the conversation, users cannot
+opt out of message processing while opening a ticket. Users decide whether to open a
+ticket at all, and server administrators can disable transcripts for any category. Any
+user may contact us to request deletion of the records generated from their messages.
 </p>
 </section>
 
